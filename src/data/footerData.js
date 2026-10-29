@@ -1,37 +1,50 @@
 export const footerData = {
     company: {
         name: "Fiberglass Engineering & Technical Services",
-        logo: "./src/assets/logo.png"
+        shortName: "FEATS",
+        tagline: "Trading & Installation",
+        logo: "./src/assets/logo.png",
+        description: "Pioneering high-performance fiberglass, GRP/GRE piping, anti-corrosive chemical linings, and composite solutions in Pakistan, backed by 35+ years of multinational leadership.",
+        founderNote: "Founded by Malik Muhammad Riaz (Former Head of TSTI UAE) with 35+ years of multinational composite experience across Europe, the Middle East, and Pakistan."
     },
-
     contact: {
-        email: "contact@feats.com",
-        phone: "+92 300 0000000"
+        email: "info@feats.com.pk",
+        phone: "0327-8896738",
+        phoneDisplay: "+92 327 8896738",
+        address: "Palace Arcade, Block D1, Liberty Market Rd, Gulberg 3, Lahore, Pakistan",
+        website: "www.feats.com.pk"
     },
-
     socials: [
         {
+            name: "WhatsApp",
+            url: "https://wa.me/923278896738",
+            icon: "whatsapp"
+        },
+        {
             name: "LinkedIn",
-            url: "https://linkedin.com",
+            url: "https://www.linkedin.com/in/saqlain-haider",
             icon: "linkedin"
         },
         {
-            name: "Facebook",
-            url: "https://facebook.com",
-            icon: "facebook"
-        },
-        {
-            name: "Twitter",
-            url: "https://twitter.com",
-            icon: "twitter"
+            name: "Email",
+            url: "mailto:info@feats.com.pk",
+            icon: "envelope"
         }
     ],
-
     quickLinks: [
-        { name: "Home", href: "/" },
-        { name: "About", href: "/about" },
-        { name: "Projects", href: "/projects" },
-        { name: "Services", href: "/services" },
-        { name: "Contact", href: "/contact" }
+        { name: "About FEATS", href: "#about" },
+        { name: "Our Services (8 Core)", href: "#services" },
+        { name: "Multinational Projects (18)", href: "#projects" },
+        { name: "Contact & Estimation", href: "#contact" }
+    ],
+    servicesList: [
+        "FRP Pipes Engineering & Projects",
+        "FRP/GRE Jointing Works",
+        "FRP Pipes Installation/Testing",
+        "Water proofing & UV protection",
+        "Fiberglass Lining Works",
+        "FRP Tanks & Cooling Towers",
+        "FRP corrugated sheets",
+        "Fiberglass Products Trading"
     ]
 };

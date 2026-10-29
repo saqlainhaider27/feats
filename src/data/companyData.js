@@ -1,11 +1,21 @@
-// src/data.js
 export const companyInfo = {
     name: "Fiberglass Engineering & Technical Services",
+    shortName: "FEATS",
+    tagline: "Trading & Installation",
+    subheading: "Advanced Fiberglass, GRP & GRE Composite Solutions",
     logo: "./src/assets/logo.png",
+    founder: "Malik Muhammad Riaz",
+    experienceYears: "35+",
+    headOffice: "Palace Arcade, Block D1, Liberty Market Rd, Gulberg 3, Lahore, Pakistan",
+    phone: "0327-8896738",
+    phoneInternational: "+92 327 8896738",
+    email: "info@feats.com.pk",
+    website: "www.feats.com.pk",
+    whatsappUrl: "https://wa.me/923278896738",
     navLinks: [
-        { name: "About", href: "/about" },
-        { name: "Projects", href: "/projects" },
-        { name: "Services", href: "/services" },
-        { name: "Contact", href: "/contact" },
+        { name: "About", href: "#about" },
+        { name: "Services", href: "#services" },
+        { name: "Projects", href: "#projects" },
+        { name: "Contact", href: "#contact" },
     ],
 };
