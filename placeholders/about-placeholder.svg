@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="aboutGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="50%" stop-color="#1e293b" />
+      <stop offset="100%" stop-color="#1e3a8a" />
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#38bdf8" stroke-width="1" stroke-opacity="0.08" />
+    </pattern>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#818cf8" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="600" fill="url(#aboutGrad)" />
+  <rect width="800" height="600" fill="url(#grid)" />
+
+  <!-- Center Card Area -->
+  <g transform="translate(400, 260)">
+    <!-- Decorative Circle Behind Icon -->
+    <circle cx="0" cy="-20" r="70" fill="#1e3a8a" fill-opacity="0.4" stroke="#38bdf8" stroke-opacity="0.3" stroke-width="2" />
+    
+    <!-- Image / Camera Icon -->
+    <g transform="translate(-32, -52)" fill="none" stroke="#38bdf8" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <rect x="2" y="8" width="60" height="46" rx="6" fill="#0f172a" fill-opacity="0.6" />
+      <circle cx="32" cy="31" r="14" />
+      <circle cx="48" cy="18" r="3" fill="#38bdf8" />
+      <path d="M 18 8 L 24 2 L 40 2 L 46 8" />
+    </g>
+
+    <!-- Main Heading -->
+    <text x="0" y="85" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="24" font-weight="700" fill="#ffffff" letter-spacing="0.5">
+      FEATS Facilities &amp; Composite Works
+    </text>
+
+    <!-- Badge / Subtitle -->
+    <rect x="-170" y="105" width="340" height="32" rx="16" fill="#1e293b" stroke="#38bdf8" stroke-opacity="0.3" stroke-width="1" />
+    <text x="0" y="126" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="500" fill="#94a3b8" letter-spacing="0.3">
+      Image Placeholder • Update in <tspan fill="#38bdf8">imagesData.js</tspan>
+    </text>
+  </g>
+
+  <!-- Border Accent -->
+  <rect x="12" y="12" width="776" height="576" rx="12" fill="none" stroke="#38bdf8" stroke-opacity="0.15" stroke-width="1.5" stroke-dasharray="8 6" />
+</svg>
