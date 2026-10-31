@@ -5,7 +5,7 @@ export const footerData = {
         tagline: "Trading & Installation",
         logo: "./src/assets/logo.png",
         description: "Pioneering high-performance fiberglass, GRP/GRE piping, anti-corrosive chemical linings, and composite solutions in Pakistan, backed by 35+ years of multinational leadership.",
-        founderNote: "Founded by Malik Muhammad Riaz (Former Head of TSTI UAE) with 35+ years of multinational composite experience across Europe, the Middle East, and Pakistan."
+        founderNote: "Backed by over 35+ years of specialized multinational composite engineering experience across Europe, the Middle East, and Pakistan."
     },
     contact: {
         email: "info@feats.com.pk",
@@ -22,7 +22,7 @@ export const footerData = {
         },
         {
             name: "LinkedIn",
-            url: "https://www.linkedin.com/in/saqlain-haider",
+            url: "https://linkedin.com",
             icon: "linkedin"
         },
         {

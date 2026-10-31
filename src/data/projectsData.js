@@ -1,3 +1,5 @@
+import { getProjectImage } from "./imagesData.js";
+
 export const projectsData = [
     {
         id: 1,
@@ -13,7 +15,7 @@ export const projectsData = [
         material: "Steel Pipe with Outer GRP Jacket over Polyurethane (PU) Foam Insulation",
         diameters: "1400mm, 1200mm, 500mm",
         year: "UAE Landmark",
-        image: "/projects/img_4.jpg",
+        image: getProjectImage(1),
         description: "District cooling chilled water infrastructure for the world's largest retail and entertainment complex, The Dubai Mall at Burj Khalifa district.",
         workExecuted: [
             "Pre-insulated Steel Pipe assembled and welded at jointing points and non-destructively tested.",
@@ -38,7 +40,7 @@ export const projectsData = [
         material: "GRP (Glass Reinforced Polyester) Pipe Line",
         diameters: "1200mm, 800mm, 600mm, 400mm, and 300mm",
         year: "Dubai Landmark",
-        image: "/projects/img_8.jpg",
+        image: getProjectImage(2),
         description: "Large-diameter cooling water GRP pipeline network servicing the premier Mall of the Emirates complex in Al Barsha, Dubai.",
         workExecuted: [
             "Installation of above-ground large-diameter GRP cooling pipelines.",
@@ -61,7 +63,7 @@ export const projectsData = [
         material: "GRE (Glass Reinforced Epoxy) Pipe Line",
         diameters: "300mm, 250mm, 150mm, and 100mm",
         year: "Aviation Project",
-        image: "/projects/img_13.jpg",
+        image: getProjectImage(3),
         description: "Critical high-pressure fire protection pipeline network for the central utility hub powering Dubai International Airport.",
         workExecuted: [
             "Installation of underground GRE fire water lines with Rubber Seal Lock Joints (RSLJ) engineered for rapid installation and seismic flexibility.",
@@ -83,7 +85,7 @@ export const projectsData = [
         material: "GRP & GRE Composite Pipe Line",
         diameters: "300mm, 250mm, 150mm, 100mm, and 80mm",
         year: "Aviation Project",
-        image: "/projects/img_9.jpg",
+        image: getProjectImage(4),
         description: "High-reliability fire water network for Emirates Airline's flagship state-of-the-art aircraft maintenance and overhaul hangars.",
         workExecuted: [
             "Installation of GRP spool saddle fixing, precision alignment, and joint lamination of GRP pipe & fittings.",
@@ -99,13 +101,13 @@ export const projectsData = [
         country: "Oman",
         client: "MHIFPCC EPC Contract / Mitsubishi Heavy Industries, JAPAN",
         consultant: "Mitsubishi Heavy Industries",
-        contractor: "Frontline / TSTI Technical Team",
+        contractor: "Specialist Engineering & Installation Team",
         sector: "Petrochemical & Fertilizer",
         pipelineType: "Chilled Water Line for District Cooling Plant",
         material: "Heavy-Duty GRP Pipeline",
         diameters: "1500mm & 500mm",
         year: "Industrial Megaproject",
-        image: "/projects/img_5.jpg",
+        image: getProjectImage(5),
         description: "Massive 1500mm GRP chilled water conveyance system for Mitsubishi Heavy Industries' world-scale fertilizer complex at Sohar Port.",
         workExecuted: [
             "Modification engineering and spooling works for 1500mm GRP pipelines.",
@@ -127,7 +129,7 @@ export const projectsData = [
         material: "GRP Vertical Process Tanks & GRP Chemical Piping",
         diameters: "2200mm & 1800mm Tanks",
         year: "Desalination Project",
-        image: "/projects/img_27.jpg",
+        image: getProjectImage(6),
         description: "Chemical process vessels and corrosive fluid transmission lines for Barka Phase II seawater reverse osmosis desalination plant.",
         workExecuted: [
             "Non-destructive inspection of massive vertical GRP chemical tanks for structural micro-cracks and defects.",
@@ -150,7 +152,7 @@ export const projectsData = [
         material: "GRP Industrial Pipeline",
         diameters: "1500mm, 600mm, 500mm, 350mm, 150mm, and 100mm",
         year: "Heavy Industry",
-        image: "/projects/img_1.jpg",
+        image: getProjectImage(7),
         description: "Backwash water processing network for the Hot Briquetted Iron (HBI) plant engineered by KOBE Steel and MIDREX Technologies USA.",
         workExecuted: [
             "Installation of extensive underground and elevated above-ground GRP pipeline runs up to 1500mm.",
@@ -173,7 +175,7 @@ export const projectsData = [
         material: "Marine-Grade GRP Pipeline",
         diameters: "1700mm, 1500mm, 1200mm, and 600mm",
         year: "Marine & Industrial",
-        image: "/projects/img_11.jpg",
+        image: getProjectImage(8),
         description: "Comprehensive seawater cooling system for Shadeed Iron & Steel with large-bore GRP pipelines up to 1700mm diameter.",
         workExecuted: [
             "Execution of large-scale underground and above-ground seawater pipeline networks.",
@@ -189,13 +191,13 @@ export const projectsData = [
         country: "Oman",
         client: "M/s Air Liquide Sohar Industrial Gases LLC",
         consultant: "Air Liquide Engineering",
-        contractor: "Frontline / TSTI Technical Team",
+        contractor: "Specialist Engineering & Installation Team",
         sector: "Industrial Gases & Cryogenics",
         pipelineType: "Cooling Water System Pipeline",
         material: "GRP Pipe Line & Engineered Fittings",
         diameters: "600mm, 400mm, and 300mm",
         year: "Industrial Gases",
-        image: "/projects/img_12.jpg",
+        image: getProjectImage(9),
         description: "Cooling water pipeline modifications and capacity extension for global industrial gas leader Air Liquide's production facility.",
         workExecuted: [
             "Installation of underground and above-ground GRP cooling water pipelines.",
@@ -212,13 +214,13 @@ export const projectsData = [
         country: "Oman",
         client: "MHIFPCC EPC Contract / Mitsubishi Heavy Industries, JAPAN",
         consultant: "Mitsubishi Heavy Industries",
-        contractor: "Frontline / TSTI Technical Team",
+        contractor: "Specialist Engineering & Installation Team",
         sector: "Corrosion Engineering & Petrochemicals",
         pipelineType: "Internal Rubber Lining for Corrosive Pipelines",
         material: "Steel Pipe with Vulcanized Elastomeric Rubber Lining",
         diameters: "600mm and 500mm",
         year: "Specialized Lining",
-        image: "/projects/img_28.jpg",
+        image: getProjectImage(10),
         description: "Internal relining and anti-corrosive restoration of chemical slurry steel pipelines for Mitsubishi Heavy Industries at Sohar Port.",
         workExecuted: [
             "Comprehensive visual and spark testing inspection of existing degraded internal rubber lining.",
@@ -240,7 +242,7 @@ export const projectsData = [
         material: "GRE (Glass Reinforced Epoxy) Pipe and Fittings",
         diameters: "250mm and 150mm",
         year: "Commercial Headquarters",
-        image: "/projects/img_10.jpg",
+        image: getProjectImage(11),
         description: "Turnkey fire protection pipeline infrastructure for the 11-story 2B+G+8 high-profile office headquarters at DAFZA Dubai.",
         workExecuted: [
             "Underground installation of GRE fire water pipelines utilizing Rubber Seal Lock Joints (RSLJ).",
@@ -262,7 +264,7 @@ export const projectsData = [
         material: "GRP Pipe, Fittings, and Large-Scale GRP Spools",
         diameters: "1600mm (Pressure Class 6 Bar — Outfall); 900mm, 600mm, 500mm, 450mm (Class 16 Bar)",
         year: "Mega Power & Water",
-        image: "/projects/img_14.jpg",
+        image: getProjectImage(12),
         description: "Landmark subsea and coastal GRP intake and outfall lines for the 445 MW Salalah Independent Water & Power Plant (IWPP).",
         workExecuted: [
             "Precision handling, laying, leveling, underwater alignment, and jointing of massive 1600mm GRP sea outfall lines.",
@@ -284,7 +286,7 @@ export const projectsData = [
         material: "Vinylester Chemical Resistance Liner & Isophthalic Structural Resin",
         diameters: "Pumping Station Wet Wells & Cover Slabs",
         year: "Municipal Infrastructure",
-        image: "/projects/img_20.jpg",
+        image: getProjectImage(13),
         description: "Turnkey GRP protective lining protecting municipal concrete sewage pumping station wet wells from hydrogen sulfide (H2S) attack.",
         workExecuted: [
             "Manufacturing of custom GRP prefabricated liner sheets integrated with mechanical anchor lugs for cast-in-place vertical concrete walls.",
@@ -306,7 +308,7 @@ export const projectsData = [
         material: "Vinylester Chemical Resistance Liner & Isophthalic Structural Resin",
         diameters: "Pumping Station Wet Wells, Manhole Shafts & Slabs",
         year: "Aviation Project",
-        image: "/projects/img_18.jpg",
+        image: getProjectImage(14),
         description: "Complete GRP protective lining system for airport sewage pumping stations, manhole shafts, and benching at Jebel Ali Airport.",
         workExecuted: [
             "Manufactured prefabricated GRP liner sheets with mechanical anchor lugs for vertical station walls.",
@@ -328,7 +330,7 @@ export const projectsData = [
         material: "GRP Pipe, Engineered Fittings, and Factory Spools",
         diameters: "500mm (Pressure Class 6 Bar); 900mm, 600mm, 500mm, and 350mm (Pressure Class 16 Bar)",
         year: "Power & Desalination",
-        image: "/projects/img_16.jpg",
+        image: getProjectImage(15),
         description: "High-pressure 16 Bar water transmission pipelines and factory-fabricated composite spools for the Salalah IWPP plant.",
         workExecuted: [
             "Laying, precision leveling, laser alignment, and jointing of 16 Bar high-pressure GRP pipes and fittings.",
@@ -344,13 +346,13 @@ export const projectsData = [
         country: "Oman",
         client: "STOMO / SUEZ TRACTEBEL Operation and Maintenance Oman LLC",
         consultant: "SUEZ Tractebel Technical",
-        contractor: "M/s STOMO / Frontline Installation Team",
+        contractor: "M/s STOMO / Specialist Installation Team",
         sector: "Thermal Power Generation",
         pipelineType: "High-Pressure GRE Fire Fighting Pipeline Network",
         material: "GRE (Glass Reinforced Epoxy) Pipe, Fittings, and Spools",
         diameters: "350mm, 250mm, 150mm, 100mm (Pressure Class 12 Bar)",
         year: "Power Plant Project",
-        image: "/projects/img_17.jpg",
+        image: getProjectImage(16),
         description: "12 Bar rated GRE high-pressure fire fighting pipeline network installed across the Barka II Power Plant complex.",
         workExecuted: [
             "Laying, precision leveling, alignment, and jointing of 12 Bar rated GRE fire pipelines and factory spools.",
@@ -372,7 +374,7 @@ export const projectsData = [
         material: "Vinylester Chemical Resistance Liner & Isophthalic Structural Resin",
         diameters: "Station Wet Wells, Vertical Walls & Cover Slabs",
         year: "Airport Infrastructure",
-        image: "/projects/img_19.jpg",
+        image: getProjectImage(17),
         description: "Heavy-duty GRP chemical lining protecting airport sewage pumping station structures at the new Al Duqm International Airport.",
         workExecuted: [
             "Manufactured shop-cured GRP prefabricated liners with integrated mechanical anchor lugs for vertical wall casting.",
@@ -394,7 +396,7 @@ export const projectsData = [
         material: "High-Performance GRE (Glass Reinforced Epoxy)",
         diameters: "100mm and 80mm",
         year: "Oil & Gas Project",
-        image: "/projects/img_15.jpg",
+        image: getProjectImage(18),
         description: "High-pressure GRE reverse osmosis pipeline system installed for Petroleum Development Oman (PDO) in the Yibal oilfield.",
         workExecuted: [
             "Installation of above-ground high-pressure GRE process lines (RO Inlet, RO Reject, and Permeate Lines).",

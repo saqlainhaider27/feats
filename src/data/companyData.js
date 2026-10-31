@@ -4,7 +4,6 @@ export const companyInfo = {
     tagline: "Trading & Installation",
     subheading: "Advanced Fiberglass, GRP & GRE Composite Solutions",
     logo: "./src/assets/logo.png",
-    founder: "Malik Muhammad Riaz",
     experienceYears: "35+",
     headOffice: "Palace Arcade, Block D1, Liberty Market Rd, Gulberg 3, Lahore, Pakistan",
     phone: "0327-8896738",

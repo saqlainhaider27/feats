@@ -108,7 +108,7 @@ export default function Footer() {
                                 <FaWhatsapp />
                             </a>
                             <a
-                                href="https://www.linkedin.com/in/saqlain-haider"
+                                href="https://linkedin.com"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="w-9 h-9 rounded-lg bg-blue-600/30 hover:bg-blue-600 text-blue-300 hover:text-white border border-blue-600/50 flex items-center justify-center text-base transition"

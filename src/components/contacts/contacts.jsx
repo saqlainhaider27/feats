@@ -172,10 +172,10 @@ export default function Contact() {
                                 </span>
                             </div>
                             <div className="text-lg font-bold text-white">
-                                {contactData.marketingEngineer.name}
+                                {contactData.technicalSupport.title}
                             </div>
                             <div className="text-xs text-slate-300 mb-3">
-                                {contactData.marketingEngineer.role}
+                                {contactData.technicalSupport.role}
                             </div>
                             <p className="text-xs text-slate-300 leading-relaxed">
                                 Available for immediate project estimation, site technical visits, and bill of quantities (BOQ) review for industrial clients across Pakistan.

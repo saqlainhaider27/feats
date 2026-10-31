@@ -85,13 +85,13 @@ export default function Projects() {
                 <div className="text-center max-w-3xl mx-auto mb-12">
                     <span className="inline-flex items-center gap-1.5 px-3.5 py-1 rounded-full text-xs font-semibold bg-blue-100 text-blue-900 mb-3 uppercase tracking-wider">
                         <FaGlobeAmericas className="text-blue-700" />
-                        TSTI / Frontline Engineering Reference Portfolio
+                        Multinational Engineering Reference Portfolio
                     </span>
                     <h2 className="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">
                         Landmark Multinational Projects
                     </h2>
                     <p className="mt-4 text-base sm:text-lg text-slate-600 leading-relaxed">
-                        Executed by our leadership team under TSTI across the United Arab Emirates and the Sultanate of Oman. Featuring landmark infrastructure for Emaar (Burj Dubai / Dubai Mall), Dubai International Airport, Mitsubishi Heavy Industries, SEPCO III, SUEZ Tractebel, and Petroleum Development Oman (PDO).
+                        Executed by our engineering leadership across the United Arab Emirates and the Sultanate of Oman. Featuring landmark infrastructure for Emaar (Burj Dubai / Dubai Mall), Dubai International Airport, Mitsubishi Heavy Industries, SEPCO III, SUEZ Tractebel, and Petroleum Development Oman (PDO).
                     </p>
                 </div>
 
@@ -313,11 +313,11 @@ export default function Projects() {
                                                             alt={project.name}
                                                             className="w-full h-56 sm:h-64 object-cover hover:scale-105 transition-transform duration-500"
                                                             onError={(e) => {
-                                                                e.target.src = "/about-img.jpg";
+                                                                e.target.src = "/placeholders/project-placeholder.svg";
                                                             }}
                                                         />
                                                         <div className="p-3 bg-slate-900 text-white text-[11px] text-center font-medium">
-                                                            TSTI Project Record #{project.id} — {project.location}
+                                                            Project Record #{project.id} — {project.location}
                                                         </div>
                                                     </div>
                                                 </div>
